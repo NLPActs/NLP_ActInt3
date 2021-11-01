@@ -10,8 +10,8 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow & keras
+tensorflow>=2.6
 google-api-python-client   
 praw
 tweepy
-
+speechbrain 
