@@ -10,7 +10,7 @@ https://colab.research.google.com/drive/1wFcLabTZSO1K69MGnDSap3GkVhav4qUd?usp=sh
 
 ---
 
-#### Link modelos entrenados e historias de entrenamiento:
+#### Link modelos entrenados e historial (history) de entrenamiento:
 
 https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
 
@@ -32,12 +32,13 @@ https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sha
     * Recolector y etiquetador de reviews de la playstore
 ---
 
-## Ejecucion
+## Ejecución
 
-Antes que nada es necesario decargar los archivos de los modelos ya entrenados los cuales se pueden encontrar en el siguiente Drive: https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
+Antes que nada es necesario descargar los archivos de los modelos ya entrenados los cuales se pueden encontrar en el siguiente Drive: https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
+
 Estos archivos han de colocarse en el mismo directorio en el que este su archivo .ipynb
 
-Ademas ha de decargar y extraer las tablas de las bases de datos utilizadas y cuyos links puede encontrar mas abajo en este documento.
+Además, se han de decargar y extraer las tablas de las bases de datos utilizadas y cuyos links puede encontrar más abajo en este documento.
 
 Cada modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string).
 
