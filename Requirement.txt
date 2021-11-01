@@ -10,9 +10,8 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow & tensorflow.keras
-
-google-api-python-client
-google-colab                    #solo disponible desde una instancia de google colab         
+tensorflow & keras
+google-api-python-client   
 praw
+tweepy
 
