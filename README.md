@@ -34,7 +34,9 @@ https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sha
 
 ## Ejecución
 
-Antes que nada es necesario descargar los archivos de los modelos ya entrenados los cuales se pueden encontrar en el siguiente Drive: https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
+Este código esta pensado para ejecutarse desde una instancia de google colab asi que el primer paso es realizar una copia del colab cuyo link se encuentra hasta arriba de este documento. Ademas primero lee el archivo Requirement.txt ubicado en este mismo repositorio.
+
+Es necesario descargar los archivos de los modelos ya entrenados los cuales se pueden encontrar en el siguiente Drive: https://drive.google.com/drive/folders/1tS6K4SRJK2tNihnJuBTy0LzWNuWZ58b0?usp=sharing
 
 Estos archivos han de colocarse en el mismo directorio en el que este su archivo .ipynb
 
@@ -42,7 +44,12 @@ Otro archivo incluido en el Drive es "NLP_TEST1.wav" el cual se puede usar como 
 
 Además, se han de decargar y extraer las tablas de las bases de datos utilizadas y cuyos links puede encontrar más abajo en este documento.
 
-Cada modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string).
+Idealmente esos son los archivos que tienes que tener en tu directorio raiz: <br>
+![alt text](https://github.com/NLPActs/NLP_ActInt3/blob/main/Screenshot%202021-11-01%20013644.png)
+
+
+Relativo a la ejecución, cada modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string).
+Tu mismo puedes entrenar los modelos o utilizar los modelos preentrnados para realizar las distintas predicciones. Ademas puedes elejir el modelo pre entrenado especifico cambiando el valor de la variable ``` ModelNumber ```
 
 ---
 
