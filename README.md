@@ -38,6 +38,8 @@ Antes que nada es necesario descargar los archivos de los modelos ya entrenados 
 
 Estos archivos han de colocarse en el mismo directorio en el que este su archivo .ipynb
 
+Otro archivo incluido en el Drive es "NLP_TEST1.wav" el cual se puede usar como sample para el Speech recognition.
+
 Además, se han de decargar y extraer las tablas de las bases de datos utilizadas y cuyos links puede encontrar más abajo en este documento.
 
 Cada modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string).
