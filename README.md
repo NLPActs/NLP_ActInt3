@@ -4,7 +4,9 @@
 
 #### _Analizador de sentimientos (expandido)_
 ---
-#### Link Google Colab: https://colab.research.google.com/drive/1wFcLabTZSO1K69MGnDSap3GkVhav4qUd?usp=sharing
+#### Link Google Colab:
+
+https://colab.research.google.com/drive/1wFcLabTZSO1K69MGnDSap3GkVhav4qUd?usp=sharing
 
 ---
 
@@ -17,15 +19,15 @@
 * Tres modelos diferentes usando RNN para el Analisis de sentimientos (con metricas)
 
 * Extras
-    * Recolector y etiquetador de reviews de la playstore
-    * Modelos de Analisis de sentimientos usando RNN con atencion (BERT)
+    * Recolección y clasificación de comentarios de youtube
+    * Modelos de Analisis de sentimientos usando RNN con atencion (BERT) para mensajes spam        
     * Modelo de Analisis de sentimientos de tres sentimientos (neutral, positivo y negativo)
-
+    * Recolector y etiquetador de reviews de la playstore
 ---
 
 ## Ejecucion
 
-
+Cada modelo generado recibe como entrada una oración como cadena de texto (string) u oraciones como en una lista de cadenas de texto (string).
 
 ---
 
@@ -34,7 +36,11 @@
 Reseñas de peliculas clasificadas como positivas o negativas: <br>
 https://www.kaggle.com/ymanojkumar023/kumarmanoj-bag-of-words-meets-bags-of-popcorn?select=labeledTrainData.tsv
 
+Mensajes spam:
+https://www.kaggle.com/dejavu23/sms-spam-or-ham-beginner/data
 
+Reviews de playstore:
+Estas fueron recolectadas mediante la API "google-play-scraper". Se recolectaron reviews de 15 apps de la categoría "Productividad", es decir, aquellas que apoyan la eficiencia de la agenda de una persona en distintos aspectos. En este caso, se recolectaron 16k reviews. Asimismo, las 5 categorías (estrellas) fueron englobadas en 3 categorías o sentimientos: negativo, positivo, y negativo. Para lo cual, aquellas con 1 o 2 estrellas se les atribuyó una connotación negativa. Para las de 3, una neutra. Por último, las de 4 y 5 una positiva. Cabe remarcar que, las clases no presentaban desbalance significativo. No obstante, se realizó "undersampling" para tener un balance ideal.
 ---
 
 ## Autores 📝
