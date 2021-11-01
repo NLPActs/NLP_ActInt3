@@ -1,0 +1,18 @@
+# Requerimientos del ambiente:
+
+Se recomienda la ejecución en un ambiente de google colab.
+Si se desea ejecutar localmente se recomienda el uso de Anaconda para el manejo del ambiente de python y de sus paquetes. Ademas se recomienda usar GNU Linux
+
+
+## Paquetes de python necesarios para la ejecución:
+
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow & tensorflow.keras
+
+google-api-python-client
+google-colab                    #solo disponible desde una instancia de google colab         
+praw
+
