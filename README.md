@@ -13,6 +13,7 @@ https://colab.research.google.com/drive/1wFcLabTZSO1K69MGnDSap3GkVhav4qUd?usp=sh
 ## Funcionalidades
 
 * Analisis de sentimientos (Positivo/Negativo) sobre
+    * Reseñas de la página imdb
     * Audio transcrito a texto
     * Tweets por usuarios
     * Reddit posts por usuarios
