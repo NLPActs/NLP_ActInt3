@@ -6,6 +6,8 @@ Si se desea ejecutar localmente se recomienda el uso de Anaconda para el manejo 
 
 ## Paquetes de python necesarios para la ejecución:
 
+python>=3.8
+
 numpy
 pandas
 matplotlib
