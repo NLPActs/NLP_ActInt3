@@ -4,7 +4,7 @@
 
 #### _Analizador de sentimientos (expandido)_
 ---
-#### Link Google Colab: 
+#### Link Google Colab: https://colab.research.google.com/drive/1wFcLabTZSO1K69MGnDSap3GkVhav4qUd?usp=sharing
 
 ---
 
